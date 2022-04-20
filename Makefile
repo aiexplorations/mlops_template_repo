@@ -9,4 +9,4 @@ format:
 	black *.py
 
 test:
-	python -m pytest -vv --cov=hello hello_test.py
+	python -m pytest -vv --cov=hello test_hello.py
