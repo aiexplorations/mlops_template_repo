@@ -8,7 +8,7 @@ This is a template for building ML applications of different kinds. It implement
 The repo makes some assumptions about the build and development environment:
 1. Python programming language is assumed by default
 2. Default branch assumed to be `master`, not `main`
-3. Pipelines set up based on simple and common workflows, with feature branches following from a base branch named `dev`
+3. Pipelines set up based on simple and common workflows, with feature branches following from a base branch named `develop`
 
 
 [![Python application](https://github.com/aiexplorations/mlops_template_repo/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/aiexplorations/mlops_template_repo/actions/workflows/python-app.yml)
