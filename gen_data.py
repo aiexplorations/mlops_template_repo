@@ -11,6 +11,8 @@ def gen_data(n):
         if non_zero_neg:
             
             df = pd.DataFrame({"x1":np.random.normal(10,1,n), "x2": np.random.normal(20,2,n)})
+            df['y'] = np.random.normal(0,1,n) + 2*df['x1'] + 3*df['x2']
+
 
             df.to_csv("data.csv")
 
