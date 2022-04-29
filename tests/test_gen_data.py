@@ -1,6 +1,7 @@
 import unittest
 import pandas as pd
 from gen_data import gen_data
+from .context import src
 
 class testGenData(unittest.TestCase):
 

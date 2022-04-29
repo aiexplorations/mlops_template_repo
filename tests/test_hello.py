@@ -1,6 +1,7 @@
 import unittest
 from hello import add, add_numpy
 from hello import multiply, multiply_numpy
+from .context import src
 
 class TestHello(unittest.TestCase):
     
