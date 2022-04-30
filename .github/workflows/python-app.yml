@@ -36,4 +36,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest
+        python -m unittest discover .
+        python -m pytest -vv --cov=hello tests/test_hello.py
+        python -m pytest -vv --cov=gen_data tests/test_gen_data.py
+
