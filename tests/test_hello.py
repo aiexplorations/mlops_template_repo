@@ -1,10 +1,9 @@
 import unittest
-from hello import add, add_numpy
-from hello import multiply, multiply_numpy
-from .context import src
+from src.hello import *
+from src.gen_data import *
 
 class TestHello(unittest.TestCase):
-    
+   
     def test_add(self):
         self.assertEqual(2, add(1,1))
         self.assertEqual(0, add(1, -1))
